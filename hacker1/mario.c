@@ -23,7 +23,7 @@ int main(void)
     do
     {
         printf("Height: ");
-        int height = GetInt();
+        height = GetInt();
     }
     while (!(height >= 0 && height <= 23));
 
